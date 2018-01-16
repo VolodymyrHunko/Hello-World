@@ -5,3 +5,4 @@ Apple
 Table
 -a furniture
 -an object
+Added some text for learning

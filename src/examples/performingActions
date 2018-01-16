@@ -1,0 +1,11 @@
+
+//Keeping CONTROL pressed
+Actions builder = new Actions(driver);
+builder.keyDown(Keys.CONTROL).click(someElement)
+       .click(someOtherElement).keyUp(Keys.CONTROL)
+       .build().perform();
+
+       //drag and drop
+       WebElement element = driver.findElement(By.name("source"));
+		WebElement target = driver.findElement(By.name("target"));
+		(new Actions(driver)).dragAndDrop(element, target).perform();

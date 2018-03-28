@@ -6,3 +6,4 @@ Table
 -a furniture
 -an object
 Added some text for learning
+and one more line

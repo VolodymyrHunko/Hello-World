@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  */
 public class readFile {
-    private static String path = "C:\\Users\\Computer\\IdeaProjects\\HeloWorld\\src\\com\\sourses\\simple_file.txt";
+    private static String path = "C:\\Users\\Computer\\IdeaProjects\\Hello World!\\src\\sourses\\simple_file.txt";
     public static void main(String [] args) throws FileNotFoundException, IOException
     {
         doesFileExists(path);
@@ -22,6 +22,7 @@ public class readFile {
             }
         }catch (IOException e) {
             System.out.println("File input error.");
+            throw e;
         }finally {
             if (in != null) {
                 in.close();
